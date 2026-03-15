@@ -1,0 +1,492 @@
+{
+    "tabla": {
+        "freq_range": [100, 400],
+        "zcr_range": [0.05, 0.15],
+        "family": "percussion"
+    },
+    "sitar": {
+        "freq_range": [150, 1500],
+        "zcr_range": [0.02, 0.08],
+        "family": "string"
+    },
+    "bansuri": {
+        "freq_range": [500, 2000],
+        "zcr_range": [0.01, 0.05],
+        "family": "wind"
+    },
+    "harmonium": {
+        "freq_range": [200, 2000],
+        "zcr_range": [0.03, 0.07],
+        "family": "keyboard"
+    },
+    "sarangi": {
+        "freq_range": [200, 2000],
+        "zcr_range": [0.04, 0.10],
+        "family": "string"
+    },
+    "veena": {
+        "freq_range": [100, 1000],
+        "zcr_range": [0.02, 0.06],
+        "family": "string"
+    },
+    "sarod": {
+        "freq_range": [150, 1500],
+        "zcr_range": [0.02, 0.07],
+        "family": "string"
+    },
+    "shehnai": {
+        "freq_range": [500, 2500],
+        "zcr_range": [0.01, 0.04],
+        "family": "wind"
+    },
+    "pakhawaj": {
+        "freq_range": [80, 300],
+        "zcr_range": [0.06, 0.16],
+        "family": "percussion"
+    },
+    "dholak": {
+        "freq_range": [80, 300],
+        "zcr_range": [0.05, 0.15],
+        "family": "percussion"
+    },
+    "khartal": {
+        "freq_range": [200, 800],
+        "zcr_range": [0.10, 0.30],
+        "family": "percussion"
+    },
+    "manjira": {
+        "freq_range": [1000, 5000],
+        "zcr_range": [0.15, 0.35],
+        "family": "percussion"
+    },
+    "ghatam": {
+        "freq_range": [150, 600],
+        "zcr_range": [0.04, 0.12],
+        "family": "percussion"
+    },
+    "mridangam": {
+        "freq_range": [80, 350],
+        "zcr_range": [0.05, 0.15],
+        "family": "percussion"
+    },
+    "kanjira": {
+        "freq_range": [200, 800],
+        "zcr_range": [0.08, 0.20],
+        "family": "percussion"
+    },
+    "flute": {
+        "freq_range": [500, 2500],
+        "zcr_range": [0.01, 0.04],
+        "family": "wind"
+    },
+    "piccolo": {
+        "freq_range": [1000, 4000],
+        "zcr_range": [0.01, 0.04],
+        "family": "wind"
+    },
+    "clarinet": {
+        "freq_range": [150, 2000],
+        "zcr_range": [0.02, 0.05],
+        "family": "wind"
+    },
+    "oboe": {
+        "freq_range": [250, 1500],
+        "zcr_range": [0.02, 0.05],
+        "family": "wind"
+    },
+    "bassoon": {
+        "freq_range": [60, 500],
+        "zcr_range": [0.02, 0.05],
+        "family": "wind"
+    },
+    "saxophone": {
+        "freq_range": [100, 1000],
+        "zcr_range": [0.02, 0.06],
+        "family": "wind"
+    },
+    "trumpet": {
+        "freq_range": [200, 1500],
+        "zcr_range": [0.02, 0.06],
+        "family": "brass"
+    },
+    "trombone": {
+        "freq_range": [80, 600],
+        "zcr_range": [0.02, 0.05],
+        "family": "brass"
+    },
+    "french horn": {
+        "freq_range": [80, 800],
+        "zcr_range": [0.02, 0.05],
+        "family": "brass"
+    },
+    "tuba": {
+        "freq_range": [40, 300],
+        "zcr_range": [0.02, 0.05],
+        "family": "brass"
+    },
+    "violin": {
+        "freq_range": [200, 3000],
+        "zcr_range": [0.02, 0.06],
+        "family": "string"
+    },
+    "viola": {
+        "freq_range": [130, 2000],
+        "zcr_range": [0.02, 0.06],
+        "family": "string"
+    },
+    "cello": {
+        "freq_range": [65, 800],
+        "zcr_range": [0.02, 0.06],
+        "family": "string"
+    },
+    "double bass": {
+        "freq_range": [40, 300],
+        "zcr_range": [0.02, 0.06],
+        "family": "string"
+    },
+    "harp": {
+        "freq_range": [30, 3000],
+        "zcr_range": [0.01, 0.04],
+        "family": "string"
+    },
+    "guitar": {
+        "freq_range": [80, 1000],
+        "zcr_range": [0.02, 0.07],
+        "family": "string"
+    },
+    "bass guitar": {
+        "freq_range": [40, 300],
+        "zcr_range": [0.02, 0.06],
+        "family": "string"
+    },
+    "ukulele": {
+        "freq_range": [250, 1000],
+        "zcr_range": [0.02, 0.07],
+        "family": "string"
+    },
+    "mandolin": {
+        "freq_range": [200, 1500],
+        "zcr_range": [0.02, 0.07],
+        "family": "string"
+    },
+    "banjo": {
+        "freq_range": [100, 1500],
+        "zcr_range": [0.03, 0.09],
+        "family": "string"
+    },
+    "piano": {
+        "freq_range": [27, 4000],
+        "zcr_range": [0.01, 0.05],
+        "family": "keyboard"
+    },
+    "harpsichord": {
+        "freq_range": [60, 2000],
+        "zcr_range": [0.01, 0.05],
+        "family": "keyboard"
+    },
+    "organ": {
+        "freq_range": [30, 8000],
+        "zcr_range": [0.01, 0.04],
+        "family": "keyboard"
+    },
+    "accordion": {
+        "freq_range": [100, 2000],
+        "zcr_range": [0.02, 0.06],
+        "family": "keyboard"
+    },
+    "drum set": {
+        "freq_range": [60, 2000],
+        "zcr_range": [0.05, 0.25],
+        "family": "percussion"
+    },
+    "snare drum": {
+        "freq_range": [150, 800],
+        "zcr_range": [0.10, 0.30],
+        "family": "percussion"
+    },
+    "bass drum": {
+        "freq_range": [30, 150],
+        "zcr_range": [0.04, 0.12],
+        "family": "percussion"
+    },
+    "cymbal": {
+        "freq_range": [200, 10000],
+        "zcr_range": [0.20, 0.50],
+        "family": "percussion"
+    },
+    "tambourine": {
+        "freq_range": [200, 4000],
+        "zcr_range": [0.15, 0.40],
+        "family": "percussion"
+    },
+    "marimba": {
+        "freq_range": [100, 2000],
+        "zcr_range": [0.02, 0.06],
+        "family": "percussion"
+    },
+    "xylophone": {
+        "freq_range": [200, 3000],
+        "zcr_range": [0.02, 0.06],
+        "family": "percussion"
+    },
+    "vibraphone": {
+        "freq_range": [100, 2000],
+        "zcr_range": [0.02, 0.06],
+        "family": "percussion"
+    },
+    "glockenspiel": {
+        "freq_range": [500, 5000],
+        "zcr_range": [0.02, 0.06],
+        "family": "percussion"
+    },
+    "celesta": {
+        "freq_range": [250, 3500],
+        "zcr_range": [0.02, 0.05],
+        "family": "keyboard"
+    },
+    "synthesizer": {
+        "freq_range": [20, 20000],
+        "zcr_range": [0.01, 0.20],
+        "family": "electronic"
+    },
+    "electric guitar": {
+        "freq_range": [80, 1200],
+        "zcr_range": [0.02, 0.08],
+        "family": "string"
+    },
+    "electric bass": {
+        "freq_range": [40, 400],
+        "zcr_range": [0.02, 0.07],
+        "family": "string"
+    },
+    "vocals": {
+        "freq_range": [80, 1000],
+        "zcr_range": [0.02, 0.10],
+        "family": "vocal"
+    },
+    "female vocals": {
+        "freq_range": [150, 1000],
+        "zcr_range": [0.02, 0.09],
+        "family": "vocal"
+    },
+    "male vocals": {
+        "freq_range": [80, 500],
+        "zcr_range": [0.02, 0.08],
+        "family": "vocal"
+    },
+    "choir": {
+        "freq_range": [80, 1000],
+        "zcr_range": [0.02, 0.08],
+        "family": "vocal"
+    },
+    "tanpura": {
+        "freq_range": [80, 400],
+        "zcr_range": [0.02, 0.06],
+        "family": "string"
+    },
+    "swarmandal": {
+        "freq_range": [200, 1500],
+        "zcr_range": [0.02, 0.06],
+        "family": "string"
+    },
+    "esraj": {
+        "freq_range": [150, 1200],
+        "zcr_range": [0.03, 0.08],
+        "family": "string"
+    },
+    "dilruba": {
+        "freq_range": [150, 1200],
+        "zcr_range": [0.03, 0.08],
+        "family": "string"
+    },
+    "taus": {
+        "freq_range": [100, 1000],
+        "zcr_range": [0.02, 0.07],
+        "family": "string"
+    },
+    "sursingar": {
+        "freq_range": [100, 800],
+        "zcr_range": [0.02, 0.07],
+        "family": "string"
+    },
+    "rudra veena": {
+        "freq_range": [60, 600],
+        "zcr_range": [0.02, 0.06],
+        "family": "string"
+    },
+    "vichitra veena": {
+        "freq_range": [60, 600],
+        "zcr_range": [0.02, 0.06],
+        "family": "string"
+    },
+    "gottuvadhyam": {
+        "freq_range": [100, 800],
+        "zcr_range": [0.02, 0.06],
+        "family": "string"
+    },
+    "mohan veena": {
+        "freq_range": [80, 800],
+        "zcr_range": [0.02, 0.07],
+        "family": "string"
+    },
+    "chitra veena": {
+        "freq_range": [200, 1500],
+        "zcr_range": [0.02, 0.06],
+        "family": "string"
+    },
+    "nadaswaram": {
+        "freq_range": [500, 3000],
+        "zcr_range": [0.01, 0.04],
+        "family": "wind"
+    },
+    "pungi": {
+        "freq_range": [400, 1500],
+        "zcr_range": [0.02, 0.06],
+        "family": "wind"
+    },
+    "algoza": {
+        "freq_range": [400, 2000],
+        "zcr_range": [0.01, 0.05],
+        "family": "wind"
+    },
+    "been": {
+        "freq_range": [300, 1200],
+        "zcr_range": [0.02, 0.06],
+        "family": "wind"
+    },
+    "shankh": {
+        "freq_range": [200, 800],
+        "zcr_range": [0.03, 0.08],
+        "family": "wind"
+    },
+    "bugchu": {
+        "freq_range": [150, 600],
+        "zcr_range": [0.04, 0.10],
+        "family": "wind"
+    },
+    "dungchen": {
+        "freq_range": [50, 200],
+        "zcr_range": [0.02, 0.06],
+        "family": "brass"
+    },
+    "karnay": {
+        "freq_range": [100, 400],
+        "zcr_range": [0.02, 0.06],
+        "family": "brass"
+    },
+    "nafir": {
+        "freq_range": [200, 800],
+        "zcr_range": [0.02, 0.06],
+        "family": "brass"
+    },
+    "kombu": {
+        "freq_range": [200, 800],
+        "zcr_range": [0.02, 0.06],
+        "family": "brass"
+    },
+    "tibetan singing bowl": {
+        "freq_range": [100, 800],
+        "zcr_range": [0.03, 0.10],
+        "family": "percussion"
+    },
+    "ghanti": {
+        "freq_range": [500, 3000],
+        "zcr_range": [0.10, 0.30],
+        "family": "percussion"
+    },
+    "jaltarang": {
+        "freq_range": [500, 2000],
+        "zcr_range": [0.02, 0.06],
+        "family": "percussion"
+    },
+    "kashtha tarang": {
+        "freq_range": [300, 1500],
+        "zcr_range": [0.02, 0.06],
+        "family": "percussion"
+    },
+    "kanch tarang": {
+        "freq_range": [400, 2000],
+        "zcr_range": [0.02, 0.06],
+        "family": "percussion"
+    },
+    "morchang": {
+        "freq_range": [200, 1000],
+        "zcr_range": [0.05, 0.15],
+        "family": "percussion"
+    },
+    "murchang": {
+        "freq_range": [200, 1000],
+        "zcr_range": [0.05, 0.15],
+        "family": "percussion"
+    },
+    "daf": {
+        "freq_range": [100, 500],
+        "zcr_range": [0.06, 0.18],
+        "family": "percussion"
+    },
+    "duff": {
+        "freq_range": [100, 500],
+        "zcr_range": [0.06, 0.18],
+        "family": "percussion"
+    },
+    "dhol": {
+        "freq_range": [60, 250],
+        "zcr_range": [0.05, 0.15],
+        "family": "percussion"
+    },
+    "dholki": {
+        "freq_range": [80, 300],
+        "zcr_range": [0.05, 0.15],
+        "family": "percussion"
+    },
+    "naal": {
+        "freq_range": [100, 350],
+        "zcr_range": [0.05, 0.15],
+        "family": "percussion"
+    },
+    "tasha": {
+        "freq_range": [150, 500],
+        "zcr_range": [0.06, 0.16],
+        "family": "percussion"
+    },
+    "chande": {
+        "freq_range": [120, 400],
+        "zcr_range": [0.05, 0.14],
+        "family": "percussion"
+    },
+    "chenda": {
+        "freq_range": [120, 400],
+        "zcr_range": [0.05, 0.14],
+        "family": "percussion"
+    },
+    "maddale": {
+        "freq_range": [100, 350],
+        "zcr_range": [0.05, 0.14],
+        "family": "percussion"
+    },
+    "timila": {
+        "freq_range": [100, 350],
+        "zcr_range": [0.05, 0.14],
+        "family": "percussion"
+    },
+    "idakka": {
+        "freq_range": [150, 500],
+        "zcr_range": [0.05, 0.14],
+        "family": "percussion"
+    },
+    "udukkai": {
+        "freq_range": [150, 500],
+        "zcr_range": [0.05, 0.14],
+        "family": "percussion"
+    },
+    "damaru": {
+        "freq_range": [200, 600],
+        "zcr_range": [0.08, 0.20],
+        "family": "percussion"
+    },
+    "ghungroo": {
+        "freq_range": [1000, 6000],
+        "zcr_range": [0.20, 0.45],
+        "family": "percussion"
+    }
+}

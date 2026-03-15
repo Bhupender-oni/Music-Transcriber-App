@@ -1,0 +1,1 @@
+from .demucs_wrapper import DemucsSeparator

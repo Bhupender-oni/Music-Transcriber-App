@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=69.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "music-transcriber-2026"
+version = "1.0.0"
+description = "Complete Indian music transcription with raga, tala, ornament detection, and source separation"
+authors = [{name = "Your Name", email = "your.email@example.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "librosa>=0.11.0",
+    "torch>=2.6.0",
+    "demucs>=4.0.0",
+    "qwen-asr>=0.0.1",
+    "bhargava-swara>=0.0.1",
+    "idtap>=0.1.44",
+    "easytranscriber>=0.1.0",
+    "plotly>=5.25.0",
+    "flask>=3.1.0",
+    "flask-cors>=5.0.0",
+    "flask-socketio>=5.4.0",
+    "gunicorn>=23.0.0",
+    "numpy>=2.2.0",
+    "scipy>=1.15.0",
+    "pandas>=2.3.0",
+    "matplotlib>=3.10.0",
+    "seaborn>=0.13.2",
+    "scikit-learn>=1.6.0",
+    "python-dotenv>=1.0.1",
+    "soundfile>=0.13.0",
+    "audioread>=3.1.0",
+    "pydub>=0.25.0",
+   #"essentia>=2.1b6.dev90",
+    "python-speech-features>=0.6",
+    "mir_eval>=0.8.0",
+    "pydantic-settings>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3.3", "black>=24.10.0", "ruff>=0.8.4", "mypy>=1.13.0", "jupyter"]
+# gpu = []  # Placeholder – install torch with CUDA separately if needed
+
+[project.scripts]
+music-transcriber = "run:main"
+
+[tool.black]
+line-length = 88
+target-version = ["py310", "py311", "py312"]
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I", "B"]
+ignore = []
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true

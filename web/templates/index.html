@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎵 Indian Music Transcriber 2026</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/static/js/app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 <span>Sur</span> Transcriber 2026</h1>
+        <p class="subtitle">Upload an audio file for complete Indian music analysis</p>
+        <div class="upload-area" id="uploadArea">
+            <div class="upload-icon">🎤</div>
+            <h3>Click or Drop Audio File Here</h3>
+            <p class="upload-info">MP3, WAV, FLAC, M4A (max 100MB)</p>
+        </div>
+        <input type="file" id="fileInput" accept="audio/*">
+        <div class="progress-section" id="progressSection">
+            <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+            <div class="status" id="statusText">Initializing...</div>
+        </div>
+        <div class="results-section" id="resultsSection">
+            <h2>Analysis Results</h2>
+            <div class="summary-cards" id="summaryCards"></div>
+            <h3>Sargam Preview</h3>
+            <div class="sargam-display" id="sargamDisplay"></div>
+            <h3>Pitch Contour</h3>
+            <div id="pitchPlotContainer" class="plot-container"></div>
+            <h3>Raga Analysis</h3>
+            <div id="ragaPlotContainer" class="plot-container"></div>
+            <h3>Instruments Detected</h3>
+            <ul id="instrumentsList" class="instrument-list"></ul>
+        </div>
+        <div style="text-align: center; margin-top: 20px;">
+            <button class="btn" id="uploadBtn" disabled>Upload & Analyze</button>
+        </div>
+    </div>
+</body>
+</html>

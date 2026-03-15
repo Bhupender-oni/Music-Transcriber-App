@@ -1,0 +1,802 @@
+{
+    "Yaman": {
+        "thaat": "Kalyan",
+        "aaroh": ["N", "R", "G", "M#", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "M#", "G", "R", "S"],
+        "pakad": ["N", "R", "G", "M#", "D", "N", "S"],
+        "vadi": "G",
+        "samvadi": "N",
+        "time": "Evening",
+        "mood": "Romantic, Peaceful"
+    },
+    "Bhairav": {
+        "thaat": "Bhairav",
+        "aaroh": ["S", "r", "G", "M", "P", "d", "N", "S"],
+        "avaroh": ["S", "N", "d", "P", "M", "G", "r", "S"],
+        "pakad": ["r", "G", "M", "P", "d", "P"],
+        "vadi": "d",
+        "samvadi": "r",
+        "time": "Morning",
+        "mood": "Devotional, Serious"
+    },
+   "Malkauns": {
+        "thaat": "Bhairavi",
+        "aaroh": ["S", "g", "M", "d", "n", "S"],
+        "avaroh": ["S", "n", "d", "M", "g", "S"],
+        "pakad": ["g", "M", "d", "n", "d", "M", "g"],
+        "vadi": "M",
+        "samvadi": "S",
+        "time": "Midnight",
+        "mood": "Serious, Calm"
+    },
+    "Darbari Kanada": {
+        "thaat": "Asavari",
+        "aaroh": ["S", "R", "g", "M", "P", "d", "n", "S"],
+        "avaroh": ["S", "n", "d", "P", "M", "g", "R", "S"],
+        "pakad": ["d", "n", "R", "S"],
+        "vadi": "R",
+        "samvadi": "P",
+        "time": "Midnight",
+        "mood": "Serious, Heavy"
+    },
+    "Bhairavi": {
+        "thaat": "Bhairavi",
+        "aaroh": ["S", "r", "g", "M", "P", "d", "n", "S"],
+        "avaroh": ["S", "n", "d", "P", "M", "g", "r", "S"],
+        "pakad": ["g", "M", "d", "n", "S"],
+        "vadi": "M",
+        "samvadi": "P",
+        "time": "Morning",
+        "mood": "Devotional, Pathos"
+    },
+    "Kafi": {
+        "thaat": "Kafi",
+        "aaroh": ["S", "R", "g", "M", "P", "D", "n", "S"],
+        "avaroh": ["S", "n", "D", "P", "M", "g", "R", "S"],
+        "pakad": ["R", "g", "M", "P", "n", "D", "P"],
+        "vadi": "P",
+        "samvadi": "R",
+        "time": "Night",
+        "mood": "Romantic, Light"
+    },
+    "Todi": {
+        "thaat": "Todi",
+        "aaroh": ["S", "r", "g", "M#", "P", "d", "N", "S"],
+        "avaroh": ["S", "N", "d", "P", "M#", "g", "r", "S"],
+        "pakad": ["r", "g", "M#", "d", "M#", "g", "r", "S"],
+        "vadi": "d",
+        "samvadi": "r",
+        "time": "Morning",
+        "mood": "Sweet, Soft"
+    },
+    "Marwa": {
+        "thaat": "Marwa",
+        "aaroh": ["S", "r", "G", "M#", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "M#", "G", "r", "S"],
+        "pakad": ["r", "G", "M#", "P", "D", "N", "S"],
+        "vadi": "r",
+        "samvadi": "P",
+        "time": "Sunset",
+        "mood": "Serious, Quiet"
+    },
+    "Puriya": {
+        "thaat": "Marwa",
+        "aaroh": ["N", "r", "G", "M#", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "M#", "G", "r", "S"],
+        "pakad": ["G", "M#", "D", "P", "G", "r", "S"],
+        "vadi": "G",
+        "samvadi": "N",
+        "time": "Evening",
+        "mood": "Serious"
+    },
+    "Sohini": {
+        "thaat": "Marwa",
+        "aaroh": ["S", "r", "G", "M#", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "M#", "G", "r", "S"],
+        "pakad": ["r", "G", "M#", "D", "N", "D", "M#", "G"],
+        "vadi": "G",
+        "samvadi": "N",
+        "time": "Evening",
+        "mood": "Romantic"   
+    },
+    "Bahar": {
+        "thaat": "Kafi",
+        "aaroh": ["S", "R", "g", "M", "P", "D", "n", "S"],
+        "avaroh": ["S", "n", "D", "P", "M", "g", "R", "S"],
+        "pakad": ["g", "M", "P", "n", "D", "P"],
+        "vadi": "M",
+        "samvadi": "S",
+        "time": "Spring",
+        "mood": "Joyful, Seasonal"
+    },
+    "Hameer": {
+        "thaat": "Kalyan",
+        "aaroh": ["S", "R", "G", "M", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "M", "G", "R", "S"],
+        "pakad": ["R", "G", "M", "P", "D", "N", "D", "P"],
+        "vadi": "D",
+        "samvadi": "R",
+        "time": "Late Night",
+        "mood": "Romantic"
+    },
+    "Kedar": {
+        "thaat": "Kalyan",
+        "aaroh": ["S", "M", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "M", "R", "S"],
+        "pakad": ["M", "P", "D", "N", "D", "P", "M", "R", "S"],
+        "vadi": "M",
+        "samvadi": "S",
+        "time": "Night",
+        "mood": "Devotional"
+    },
+    "Shuddh Kalyan": {
+        "thaat": "Kalyan",
+        "aaroh": ["S", "R", "G", "P", "D", "S"],
+        "avaroh": ["S", "D", "P", "G", "R", "S"],
+        "pakad": ["R", "G", "P", "D", "P", "G", "R", "S"],
+        "vadi": "G",
+        "samvadi": "D",
+        "time": "Evening",
+        "mood": "Simple, Sweet"
+    },
+    "Bhoop": {
+        "thaat": "Kalyan",
+        "aaroh": ["S", "R", "G", "P", "D", "S"],
+        "avaroh": ["S", "D", "P", "G", "R", "S"],
+        "pakad": ["G", "P", "D", "S", "D", "P", "G"],
+        "vadi": "G",
+        "samvadi": "D",
+        "time": "Evening",
+        "mood": "Joyful"
+    },
+    "Deshkar": {
+        "thaat": "Bilawal",
+        "aaroh": ["S", "R", "G", "P", "D", "S"],
+        "avaroh": ["S", "D", "P", "G", "R", "S"],
+        "pakad": ["R", "G", "P", "D", "S"],
+        "vadi": "D",
+        "samvadi": "R",
+        "time": "Morning",
+        "mood": "Light"
+    },
+    "Bilawal": {
+        "thaat": "Bilawal",
+        "aaroh": ["S", "R", "G", "M", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "M", "G", "R", "S"],
+        "pakad": ["G", "M", "P", "D", "N", "S"],
+        "vadi": "D",
+        "samvadi": "G",
+        "time": "Morning",
+        "mood": "Pure, Bright"
+    },
+    "Alhaiya Bilawal": {
+        "thaat": "Bilawal",
+        "aaroh": ["S", "R", "G", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "M", "G", "R", "S"],
+        "pakad": ["G", "R", "G", "P", "D", "P", "G", "R", "S"],
+        "vadi": "G",
+        "samvadi": "N",
+        "time": "Morning",
+        "mood": "Sweet"
+    },
+    "Durga": {
+        "thaat": "Bilawal",
+        "aaroh": ["S", "R", "M", "P", "D", "S"],
+        "avaroh": ["S", "D", "P", "M", "R", "S"],
+        "pakad": ["R", "M", "P", "D", "P", "M", "R"],
+        "vadi": "R",
+        "samvadi": "P",
+        "time": "Evening",
+        "mood": "Energetic"
+    },
+    "Jaunpuri": {
+        "thaat": "Asavari",
+        "aaroh": ["S", "R", "g", "M", "P", "d", "n", "S"],
+        "avaroh": ["S", "n", "d", "P", "M", "g", "R", "S"],
+        "pakad": ["R", "g", "M", "P", "d", "n", "d", "P"],
+        "vadi": "d",
+        "samvadi": "R",
+        "time": "Late Morning",
+        "mood": "Serious"
+    },
+    "Asavari": {
+        "thaat": "Asavari",
+        "aaroh": ["S", "R", "g", "M", "P", "d", "n", "S"],
+        "avaroh": ["S", "n", "d", "P", "M", "g", "R", "S"],
+        "pakad": ["R", "g", "M", "P", "d", "n", "d", "P"],
+        "vadi": "d",
+        "samvadi": "g",
+        "time": "Late Morning",
+        "mood": "Serious"
+    },
+    "Komal Rishabh Asavari": {
+        "thaat": "Asavari",
+        "aaroh": ["S", "r", "g", "M", "P", "d", "n", "S"],
+        "avaroh": ["S", "n", "d", "P", "M", "g", "r", "S"],
+        "pakad": ["r", "g", "M", "P", "d", "n", "d", "P"],
+        "vadi": "d",
+        "samvadi": "r",
+        "time": "Morning",
+        "mood": "Serious"
+    },
+    "Chandrakauns": {
+        "thaat": "Bhairavi",
+        "aaroh": ["S", "g", "M", "d", "n", "S"],
+        "avaroh": ["S", "n", "d", "M", "g", "S"],
+        "pakad": ["g", "M", "d", "n", "S", "n", "d", "M", "g"],
+        "vadi": "M",
+        "samvadi": "S",
+        "time": "Midnight",
+        "mood": "Intense"
+    },
+    "Madhuvanti": {
+        "thaat": "Todi",
+        "aaroh": ["S", "r", "g", "M", "P", "d", "N", "S"],
+        "avaroh": ["S", "N", "d", "P", "M", "g", "r", "S"],
+        "pakad": ["r", "g", "M", "P", "d", "N", "S"],
+        "vadi": "M",
+        "samvadi": "S",
+        "time": "Evening",
+        "mood": "Romantic"
+    },
+    "Multani": {
+        "thaat": "Todi",
+        "aaroh": ["S", "r", "g", "M", "P", "d", "N", "S"],
+        "avaroh": ["S", "N", "d", "P", "M", "g", "r", "S"],
+        "pakad": ["r", "g", "M", "P", "d", "N", "d", "P"],
+        "vadi": "g",
+        "samvadi": "N",
+        "time": "Evening",
+        "mood": "Serious"
+    },
+    "Basant": {
+        "thaat": "Puriya",
+        "aaroh": ["S", "r", "G", "M", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "M", "G", "r", "S"],
+        "pakad": ["r", "G", "M", "P", "D", "N", "S"],
+        "vadi": "G",
+        "samvadi": "D",
+        "time": "Spring",
+        "mood": "Joyful"
+    },
+    "Hindol": {
+        "thaat": "Marwa",
+        "aaroh": ["S", "G", "M", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "M", "G", "S"],
+        "pakad": ["G", "M", "D", "N", "S"],
+        "vadi": "G",
+        "samvadi": "D",
+        "time": "Morning",
+        "mood": "Joyful"
+    },
+    "Shankara": {
+        "thaat": "Bilawal",
+        "aaroh": ["S", "R", "G", "M", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "M", "G", "R", "S"],
+        "pakad": ["R", "G", "M", "P", "D", "P", "G", "R", "S"],
+        "vadi": "R",
+        "samvadi": "P",
+        "time": "Morning",
+        "mood": "Devotional"
+    },
+    "Jog": {
+        "thaat": "Kafi",
+        "aaroh": ["S", "R", "g", "M", "P", "n", "S"],
+        "avaroh": ["S", "n", "P", "M", "g", "R", "S"],
+        "pakad": ["R", "g", "M", "P", "n", "S"],
+        "vadi": "R",
+        "samvadi": "P",
+        "time": "Night",
+        "mood": "Romantic"
+    },
+    "Jogiya": {
+        "thaat": "Kafi",
+        "aaroh": ["S", "R", "g", "M", "P", "n", "S"],
+        "avaroh": ["S", "n", "P", "M", "g", "R", "S"],
+        "pakad": ["g", "M", "P", "n", "S"],
+        "vadi": "P",
+        "samvadi": "S",
+        "time": "Night",
+        "mood": "Mystical"
+    },
+    "Kirwani": {
+        "thaat": "Kirwani",
+        "aaroh": ["S", "R", "g", "M", "P", "d", "N", "S"],
+        "avaroh": ["S", "N", "d", "P", "M", "g", "R", "S"],
+        "pakad": ["R", "g", "M", "P", "d", "N", "S"],
+        "vadi": "g",
+        "samvadi": "N",
+        "time": "Evening",
+        "mood": "Plaintive"
+    },
+    "Piloo": {
+        "thaat": "Kafi",
+        "aaroh": ["S", "r", "g", "P", "D", "n", "S"],
+        "avaroh": ["S", "n", "D", "P", "g", "r", "S"],
+        "pakad": ["r", "g", "P", "n", "D", "P"],
+        "vadi": "g",
+        "samvadi": "n",
+        "time": "Night",
+        "mood": "Romantic"
+    },
+    "Bhimpalasi": {
+        "thaat": "Kafi",
+        "aaroh": ["S", "R", "g", "M", "P", "D", "n", "S"],
+        "avaroh": ["S", "n", "D", "P", "M", "g", "R", "S"],
+        "pakad": ["R", "g", "M", "P", "n", "D", "P"],
+        "vadi": "P",
+        "samvadi": "S",
+        "time": "Afternoon",
+        "mood": "Romantic"
+    },
+    "Bageshri": {
+        "thaat": "Kafi",
+        "aaroh": ["S", "R", "g", "M", "P", "D", "n", "S"],
+        "avaroh": ["S", "n", "D", "P", "M", "g", "R", "S"],
+        "pakad": ["g", "M", "D", "n", "D", "P"],
+        "vadi": "M",
+        "samvadi": "S",
+        "time": "Late Night",
+        "mood": "Longing"
+    },
+    "Khamaj": {
+        "thaat": "Khamaj",
+        "aaroh": ["S", "R", "G", "M", "P", "D", "n", "S"],
+        "avaroh": ["S", "n", "D", "P", "M", "G", "R", "S"],
+        "pakad": ["G", "M", "P", "D", "n", "S"],
+        "vadi": "G",
+        "samvadi": "n",
+        "time": "Night",
+        "mood": "Romantic, Light"
+    },
+    "Des": {
+        "thaat": "Khamaj",
+        "aaroh": ["S", "R", "G", "M", "P", "D", "n", "S"],
+        "avaroh": ["S", "n", "D", "P", "M", "G", "R", "S"],
+        "pakad": ["R", "G", "M", "P", "D", "n", "D", "P"],
+        "vadi": "G",
+        "samvadi": "n",
+        "time": "Night",
+        "mood": "Light, Romantic"
+    },
+    "Tilak Kamod": {
+        "thaat": "Khamaj",
+        "aaroh": ["S", "R", "G", "P", "D", "n", "S"],
+        "avaroh": ["S", "n", "D", "P", "G", "M", "R", "S"],
+        "pakad": ["R", "G", "P", "D", "n", "D", "P"],
+        "vadi": "G",
+        "samvadi": "n",
+        "time": "Night",
+        "mood": "Romantic"
+    },
+    "Gara": {
+        "thaat": "Khamaj",
+        "aaroh": ["S", "R", "G", "M", "P", "D", "n", "S"],
+        "avaroh": ["S", "n", "D", "P", "M", "G", "R", "S"],
+        "pakad": ["R", "G", "M", "P", "D", "n", "S"],
+        "vadi": "G",
+        "samvadi": "n",
+        "time": "Night",
+        "mood": "Light"
+    },
+    "Jhinjhoti": {
+        "thaat": "Khamaj",
+        "aaroh": ["S", "R", "G", "M", "P", "D", "n", "S"],
+        "avaroh": ["S", "n", "D", "P", "M", "G", "R", "S"],
+        "pakad": ["S", "R", "G", "M", "P", "D", "n", "D", "P", "M", "G"],
+        "vadi": "G",
+        "samvadi": "n",
+        "time": "Night",
+        "mood": "Romantic"
+    },
+    "Mand": {
+        "thaat": "Khamaj",
+        "aaroh": ["S", "R", "M", "P", "n", "S"],
+        "avaroh": ["S", "n", "P", "M", "R", "S"],
+        "pakad": ["R", "M", "P", "n", "S"],
+        "vadi": "P",
+        "samvadi": "S",
+        "time": "Evening",
+        "mood": "Folk"
+    },
+    "Shivranjani": {
+        "thaat": "Bhairavi",
+        "aaroh": ["S", "r", "g", "P", "d", "n", "S"],
+        "avaroh": ["S", "n", "d", "P", "g", "r", "S"],
+        "pakad": ["r", "g", "P", "d", "n", "S"],
+        "vadi": "r",
+        "samvadi": "P",
+        "time": "Night",
+        "mood": "Peaceful"
+    },
+    "Chandni Kedar": {
+        "thaat": "Kalyan",
+        "aaroh": ["S", "R", "G", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "G", "R", "S"],
+        "pakad": ["R", "G", "P", "D", "N", "S"],
+        "vadi": "G",
+        "samvadi": "N",
+        "time": "Night",
+        "mood": "Romantic"
+    },
+    "Hemant": {
+        "thaat": "Kalyan",
+        "aaroh": ["S", "R", "G", "M", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "M", "G", "R", "S"],
+        "pakad": ["R", "G", "M", "P", "D", "N", "S"],
+        "vadi": "P",
+        "samvadi": "R",
+        "time": "Night",
+        "mood": "Romantic"
+    },
+    "Nat Bhairav": {
+        "thaat": "Bhairav",
+        "aaroh": ["S", "r", "G", "M", "P", "d", "N", "S"],
+        "avaroh": ["S", "N", "d", "P", "M", "G", "r", "S"],
+        "pakad": ["r", "G", "M", "P", "d", "N", "S"],
+        "vadi": "G",
+        "samvadi": "d",
+        "time": "Morning",
+        "mood": "Devotional"
+    },
+    "Ahir Bhairav": {
+        "thaat": "Bhairav",
+        "aaroh": ["S", "r", "G", "M", "P", "d", "n", "S"],
+        "avaroh": ["S", "n", "d", "P", "M", "G", "r", "S"],
+        "pakad": ["r", "G", "M", "P", "d", "n", "S"],
+        "vadi": "G",
+        "samvadi": "d",
+        "time": "Morning",
+        "mood": "Devotional"
+    },
+    "Basant Mukhari": {
+        "thaat": "Bhairavi",
+        "aaroh": ["S", "r", "g", "M", "P", "d", "n", "S"],
+        "avaroh": ["S", "n", "d", "P", "M", "g", "r", "S"],
+        "pakad": ["r", "g", "M", "P", "d", "n", "S"],
+        "vadi": "M",
+        "samvadi": "S",
+        "time": "Spring",
+        "mood": "Joyful"
+    },
+    "Gurjari Todi": {
+        "thaat": "Todi",
+        "aaroh": ["S", "r", "g", "M#", "P", "d", "N", "S"],
+        "avaroh": ["S", "N", "d", "P", "M#", "g", "r", "S"],
+        "pakad": ["r", "g", "M#", "d", "P", "d", "M#", "g", "r"],
+        "vadi": "d",
+        "samvadi": "r",
+        "time": "Morning",
+        "mood": "Sweet"
+    },
+    "Miyan Ki Todi": {
+        "thaat": "Todi",
+        "aaroh": ["S", "r", "g", "M#", "P", "d", "N", "S"],
+        "avaroh": ["S", "N", "d", "P", "M#", "g", "r", "S"],
+        "pakad": ["r", "g", "M#", "d", "M#", "g", "r", "S"],
+        "vadi": "d",
+        "samvadi": "r",
+        "time": "Morning",
+        "mood": "Serious"
+    },
+    "Bilaskhani Todi": {
+        "thaat": "Todi",
+        "aaroh": ["S", "r", "g", "M", "P", "d", "N", "S"],
+        "avaroh": ["S", "N", "d", "P", "M", "g", "r", "S"],
+        "pakad": ["r", "g", "M", "P", "d", "N", "S"],
+        "vadi": "g",
+        "samvadi": "d",
+        "time": "Morning",
+        "mood": "Light"
+    },
+    "Lalit": {
+        "thaat": "Marwa",
+        "aaroh": ["S", "r", "G", "M#", "M", "P", "d", "N", "S"],
+        "avaroh": ["S", "N", "d", "P", "M", "M#", "G", "r", "S"],
+        "pakad": ["r", "G", "M#", "M", "P", "d", "P"],
+        "vadi": "M",
+        "samvadi": "S",
+        "time": "Dawn",
+        "mood": "Serious"
+    },
+    "Bhatiyar": {
+        "thaat": "Marwa",
+        "aaroh": ["S", "r", "G", "M", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "M", "G", "r", "S"],
+        "pakad": ["r", "G", "M", "P", "D", "N", "S"],
+        "vadi": "G",
+        "samvadi": "N",
+        "time": "Night",
+        "mood": "Serious"
+    },
+    "Puriya Dhanashri": {
+        "thaat": "Puriya",
+        "aaroh": ["N", "r", "G", "M#", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "M#", "G", "r", "S"],
+        "pakad": ["r", "G", "M#", "P", "D", "N", "S"],
+        "vadi": "G",
+        "samvadi": "N",
+        "time": "Evening",
+        "mood": "Serious"
+    },
+    "Shuddha Sarang": {
+        "thaat": "Kalyan",
+        "aaroh": ["S", "R", "M", "P", "N", "S"],
+        "avaroh": ["S", "N", "P", "M", "R", "S"],
+        "pakad": ["R", "M", "P", "N", "S"],
+        "vadi": "R",
+        "samvadi": "P",
+        "time": "Afternoon",
+        "mood": "Light"
+    },
+    "Miand Sarang": {
+        "thaat": "Kafi",
+        "aaroh": ["S", "R", "M", "P", "n", "S"],
+        "avaroh": ["S", "n", "P", "M", "R", "S"],
+        "pakad": ["R", "M", "P", "n", "S"],
+        "vadi": "R",
+        "samvadi": "P",
+        "time": "Afternoon",
+        "mood": "Light"
+    },
+    "Brindabani Sarang": {
+        "thaat": "Kafi",
+        "aaroh": ["S", "R", "M", "P", "n", "S"],
+        "avaroh": ["S", "n", "P", "M", "R", "S"],
+        "pakad": ["R", "M", "P", "n", "S"],
+        "vadi": "R",
+        "samvadi": "P",
+        "time": "Afternoon",
+        "mood": "Sweet"
+    },
+    "Madhmad Sarang": {
+        "thaat": "Kafi",
+        "aaroh": ["S", "R", "M", "P", "D", "n", "S"],
+        "avaroh": ["S", "n", "D", "P", "M", "R", "S"],
+        "pakad": ["R", "M", "P", "D", "n", "S"],
+        "vadi": "R",
+        "samvadi": "P",
+        "time": "Afternoon",
+        "mood": "Light"
+    },
+    "Kaunsi Kanada": {
+        "thaat": "Asavari",
+        "aaroh": ["S", "R", "g", "M", "P", "d", "n", "S"],
+        "avaroh": ["S", "n", "d", "P", "M", "g", "R", "S"],
+        "pakad": ["g", "M", "d", "n", "S"],
+        "vadi": "d",
+        "samvadi": "g",
+        "time": "Night",
+        "mood": "Serious"
+    },
+    "Abhogi": {
+        "thaat": "Kafi",
+        "aaroh": ["S", "R", "g", "M", "P", "D", "S"],
+        "avaroh": ["S", "D", "P", "M", "g", "R", "S"],
+        "pakad": ["R", "g", "M", "P", "D", "S"],
+        "vadi": "M",
+        "samvadi": "S",
+        "time": "Evening",
+        "mood": "Light"   
+    },
+    "Patdeep": {
+        "thaat": "Kafi",
+        "aaroh": ["S", "R", "g", "M", "P", "D", "n", "S"],
+        "avaroh": ["S", "n", "D", "P", "M", "g", "R", "S"],
+        "pakad": ["g", "M", "P", "n", "D", "P"],
+        "vadi": "P",
+        "samvadi": "S",
+        "time": "Evening",
+        "mood": "Romantic"
+    },
+    "Dhani": {
+        "thaat": "Kafi",
+        "aaroh": ["S", "R", "g", "M", "P", "D", "n", "S"],
+        "avaroh": ["S", "n", "D", "P", "M", "g", "R", "S"],
+        "pakad": ["g", "M", "P", "n", "D", "P"],
+        "vadi": "P",
+        "samvadi": "S",
+        "time": "Night",
+        "mood": "Romantic"
+    },
+    "Rageshri": {
+        "thaat": "Kafi",
+        "aaroh": ["S", "R", "g", "M", "P", "D", "n", "S"],
+        "avaroh": ["S", "n", "D", "P", "M", "g", "R", "S"],
+        "pakad": ["g", "M", "P", "D", "n", "S"],
+        "vadi": "M",
+        "samvadi": "S",
+        "time": "Night",
+        "mood": "Romantic"
+    },
+    "Kaushi Kanada": {
+        "thaat": "Asavari",
+        "aaroh": ["S", "R", "g", "M", "P", "d", "n", "S"],
+        "avaroh": ["S", "n", "d", "P", "M", "g", "R", "S"],
+        "pakad": ["g", "M", "d", "n", "S"],
+        "vadi": "d",
+        "samvadi": "g",
+        "time": "Night",
+        "mood": "Serious"
+    },
+    "Adana": {
+        "thaat": "Asavari",
+        "aaroh": ["S", "R", "g", "M", "P", "d", "n", "S"],
+        "avaroh": ["S", "n", "d", "P", "M", "g", "R", "S"],
+        "pakad": ["R", "g", "M", "P", "d", "n", "S"],
+        "vadi": "d",
+        "samvadi": "g",
+        "time": "Night",
+        "mood": "Serious"
+    },
+    "Chhaya": {
+        "thaat": "Bilawal",
+        "aaroh": ["S", "R", "G", "M", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "M", "G", "R", "S"],
+        "pakad": ["G", "M", "P", "D", "N", "S"],
+        "vadi": "G",
+        "samvadi": "N",
+        "time": "Morning",
+        "mood": "Light"
+    },
+    "Hem Kalyan": {
+        "thaat": "Kalyan",
+        "aaroh": ["S", "R", "G", "M", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "M", "G", "R", "S"],
+        "pakad": ["R", "G", "M", "P", "D", "N", "S"],
+        "vadi": "G",
+        "samvadi": "N",
+        "time": "Evening",
+        "mood": "Romantic"
+    },
+    "Yaman Kalyan": {
+        "thaat": "Kalyan",
+        "aaroh": ["S", "R", "G", "M", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "M", "G", "R", "S"],
+        "pakad": ["R", "G", "M", "P", "D", "N", "S"],
+        "vadi": "G",
+        "samvadi": "N",
+        "time": "Evening",
+        "mood": "Romantic"
+    },
+    "Shyam Kalyan": {
+        "thaat": "Kalyan",
+        "aaroh": ["S", "R", "G", "M", "P", "D", "N", "S"],
+        "avaroh": ["S", "N", "D", "P", "M", "G", "R", "S"],
+        "pakad": ["R", "G", "M", "P", "D", "N", "S"],
+        "vadi": "G",
+        "samvadi": "N",
+        "time": "Evening",
+        "mood": "Romantic"
+    },
+    "Bhoopali": {
+        "thaat": "Kalyan",
+        "aaroh": ["S", "R", "G", "P", "D", "S"],
+        "avaroh": ["S", "D", "P", "G", "R", "S"],
+        "pakad": ["G", "P", "D", "S", "D", "P", "G"],
+        "vadi": "G",
+        "samvadi": "D",
+        "time": "Evening",
+        "mood": "Joyful"
+    },
+    "Desh": {
+        "thaat": "Khamaj",
+        "aaroh": ["S", "R", "G", "M", "P", "D", "n", "S"],
+        "avaroh": ["S", "n", "D", "P", "M", "G", "R", "S"],
+        "pakad": ["R", "G", "M", "P", "D", "n", "D", "P"],
+        "vadi": "G",
+        "samvadi": "n",
+        "time": "Night",
+        "mood": "Light"
+    },
+    "Tilang": {
+        "thaat": "Khamaj",
+        "aaroh": ["S", "R", "G", "M", "P", "n", "S"],
+        "avaroh": ["S", "n", "P", "M", "G", "R", "S"],
+        "pakad": ["R", "G", "M", "P", "n", "S"],
+        "vadi": "G",
+        "samvadi": "n",
+        "time": "Night",
+        "mood": "Light"
+    },
+    "Kafi Kanada": {
+        "thaat": "Kafi",
+        "aaroh": ["S", "R", "g", "M", "P", "D", "n", "S"],
+        "avaroh": ["S", "n", "D", "P", "M", "g", "R", "S"],
+        "pakad": ["R", "g", "M", "P", "D", "n", "S"],
+        "vadi": "P",
+        "samvadi": "S",
+        "time": "Night",
+        "mood": "Romantic"
+    },
+    "Sindhu Bhairavi": {
+        "thaat": "Bhairavi",
+        "aaroh": ["S", "r", "g", "M", "P", "d", "n", "S"],
+        "avaroh": ["S", "n", "d", "P", "M", "g", "r", "S"],
+        "pakad": ["r", "g", "M", "P", "d", "n", "S"],
+        "vadi": "M",
+        "samvadi": "S",
+        "time": "Morning",
+        "mood": "Devotional"
+    },
+    "Anand Bhairavi": {
+        "thaat": "Bhairavi",
+        "aaroh": ["S", "r", "g", "M", "P", "d", "n", "S"],
+        "avaroh": ["S", "n", "d", "P", "M", "g", "r", "S"],
+        "pakad": ["r", "g", "M", "P", "d", "n", "S"],
+        "vadi": "M",
+        "samvadi": "S",
+        "time": "Morning",
+        "mood": "Joyful"
+    },
+    "Mohanam": {
+        "melakarta": 28,
+        "aaroh": ["S", "R2", "G3", "P", "D2", "S"],
+        "avaroh": ["S", "D2", "P", "G3", "R2", "S"],
+        "pakad": ["P", "D2", "P", "G3", "R2", "S"],
+        "vadi": "G3",
+        "samvadi": "P",
+        "time": "Evening",
+        "mood": "Joyful"
+    },
+    "Shankarabharanam": {
+        "melakarta": 29,
+        "aaroh": ["S", "R2", "G3", "M1", "P", "D2", "N3", "S"],
+        "avaroh": ["S", "N3", "D2", "P", "M1", "G3", "R2", "S"],
+        "pakad": ["P", "M1", "G3", "R2", "S"],
+        "vadi": "G3",
+        "samvadi": "P",
+        "time": "All",
+        "mood": "Devotional"
+    },
+    "Kalyani": {
+        "melakarta": 65,
+        "aaroh": ["S", "R2", "G3", "M2", "P", "D2", "N3", "S"],
+        "avaroh": ["S", "N3", "D2", "P", "M2", "G3", "R2", "S"],
+        "pakad": ["P", "M2", "G3", "R2", "S"],
+        "vadi": "G3",
+        "samvadi": "P",
+        "time": "All",
+        "mood": "Grand"
+    },
+    "Kharaharapriya": {
+        "melakarta": 22,
+        "aaroh": ["S", "R2", "G2", "M1", "P", "D2", "N2", "S"],
+        "avaroh": ["S", "N2", "D2", "P", "M1", "G2", "R2", "S"],
+        "pakad": ["R2", "G2", "M1", "P", "D2", "N2", "S"],
+        "vadi": "R2",
+        "samvadi": "P",
+        "time": "All",
+        "mood": "Devotional"
+    },
+    "Todi (Carnatic)": {
+        "melakarta": 8,
+        "aaroh": ["S", "R1", "G2", "M1", "P", "D1", "N2", "S"],
+        "avaroh": ["S", "N2", "D1", "P", "M1", "G2", "R1", "S"],
+        "pakad": ["R1", "G2", "M1", "P", "D1", "N2", "S"],
+        "vadi": "R1",
+        "samvadi": "P",
+        "time": "Morning",
+        "mood": "Serious"
+    },
+    "Bhairavi (Carnatic)": {
+        "melakarta": 20,
+        "aaroh": ["S", "R2", "G2", "M1", "P", "D2", "N2", "S"],
+        "avaroh": ["S", "N2", "D2", "P", "M1", "G2", "R2", "S"],
+        "pakad": ["R2", "G2", "M1", "P", "D2", "N2", "S"],
+        "vadi": "R2",
+        "samvadi": "P",
+        "time": "Morning",
+        "mood": "Devotional"
+    },
+    "Sankarabharanam": {
+        "melakarta": 29,
+        "aaroh": ["S", "R2", "G3", "M1", "P", "D2", "N3", "S"],
+        "avaroh": ["S", "N3", "D2", "P", "M1", "G3", "R2", "S"],
+        "pakad": ["P", "M1", "G3", "R2", "S"],
+        "vadi": "G3",
+        "samvadi": "P",
+        "time": "All",
+        "mood": "Devotional"
+    }
+}
