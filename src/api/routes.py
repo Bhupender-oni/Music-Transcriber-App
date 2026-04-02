@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify, render_template
 import os
+import sys
 import uuid
 import threading
+from pathlib import Path
 from src.config import settings
 from src.audio import load_audio, detect_tonic, extract_pitch_contour
 from src.transcription import generate_sargam, QwenMusicTranscriber
@@ -9,6 +11,12 @@ from src.models import RagaIdentifier, TalaDetector, InstrumentClassifier
 from src.separation.demucs_wrapper import DemucsSeparator
 from src.visualization import create_pitch_contour_plot, create_raga_plot
 from .websocket import socketio
+
+# Ensure bundled ffmpeg/ffprobe is on PATH (fixes broken Chocolatey shim)
+_HERE = Path(__file__).resolve().parent.parent.parent  # project root
+_FFMPEG_BIN = _HERE / "ffmpeg" / "ffmpeg-master-latest-win64-gpl" / "bin"
+if _FFMPEG_BIN.is_dir() and str(_FFMPEG_BIN) not in os.environ.get("PATH", ""):
+    os.environ["PATH"] = str(_FFMPEG_BIN) + os.pathsep + os.environ.get("PATH", "")
 
 def create_app():
     app = Flask(__name__, template_folder='../../web/templates', static_folder='../../web/static')
@@ -19,8 +27,8 @@ def create_app():
     raga_identifier = RagaIdentifier()
     tala_detector = TalaDetector()
     instrument_classifier = InstrumentClassifier()
-    separator = DemucsSeparator(device="cpu")
-    transcriber = QwenMusicTranscriber(device="cpu")
+    separator = DemucsSeparator()
+    transcriber = QwenMusicTranscriber()
 
     jobs = {}
 
@@ -37,7 +45,7 @@ def create_app():
             return jsonify({'error': 'No file selected'}), 400
         job_id = str(uuid.uuid4())
         filename = f"{job_id}_{file.filename}"
-        filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        filepath = os.path.abspath(os.path.join(app.config['UPLOAD_FOLDER'], filename))
         file.save(filepath)
         thread = threading.Thread(target=process_audio, args=(job_id, filepath, jobs,
             raga_identifier, tala_detector, instrument_classifier, separator, transcriber))
@@ -45,17 +53,16 @@ def create_app():
         thread.start()
         return jsonify({'job_id': job_id, 'status': 'processing'})
 
-    @app.route('/upload',methods=['POST'])
-    def get_status(job_id):
-        return jsonify(jobs.get(job_id, {}))
-
     @app.route('/status/<job_id>',methods=['GET'])
     def get_results(job_id):
         job = jobs.get(job_id)
         if not job:
             return jsonify({'error': 'Not found'}), 404
         if job.get('status') != 'complete':
-            return jsonify({'status': job.get('status', 'unknown')}), 202
+            return jsonify({
+                'status': job.get('status', 'unknown'),
+                'progress': job.get('progress', 0)
+            }), 202
         return jsonify(job.get('result', {}))
 
     socketio.init_app(app, cors_allowed_origins="*")

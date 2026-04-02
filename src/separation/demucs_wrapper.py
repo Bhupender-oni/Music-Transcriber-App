@@ -1,3 +1,4 @@
+import os
 import torch
 import torchaudio
 from pathlib import Path
@@ -6,13 +7,19 @@ import logging
 from demucs import pretrained
 from demucs.apply import apply_model
 from demucs.audio import AudioFile
+from src.config import settings
+
+# Ensure local FFmpeg is in PATH for torchaudio/demucs
+ffmpeg_bin = os.path.join(os.getcwd(), "ffmpeg", "ffmpeg-master-latest-win64-gpl", "bin")
+if os.path.exists(ffmpeg_bin):
+    os.environ["PATH"] = ffmpeg_bin + os.pathsep + os.environ.get("PATH", "")
 
 logger = logging.getLogger(__name__)
 
 class DemucsSeparator:
-    def __init__(self, model_name: str = "htdemucs_ft", device: str = "cpu"):
+    def __init__(self, model_name: str = "htdemucs_ft", device: str = None):
         self.model_name = model_name
-        self.device = device
+        self.device = device if device else settings.device
         logger.info(f"Loading Demucs {model_name} on {self.device}...")
         self.model = pretrained.get_model(model_name)
         self.model.to(self.device)
@@ -31,8 +38,19 @@ class DemucsSeparator:
         )
 
         # Ensure shape is (channels, samples)
-        if wav.shape[1] != self.model.audio_channels:
+        # If the first dimension isn't channels but the second one is, transpose it.
+        if wav.shape[0] != self.model.audio_channels and wav.shape[1] == self.model.audio_channels:
             wav = wav.T
+        
+        # If still not correct (e.g. mono but model expects stereo), 
+        # we might need to expand or handle specifically, but for now, 
+        # just ensures we don't pass (samples, channels).
+        if wav.shape[0] != self.model.audio_channels:
+            # Fallback: if it's (samples, 1) and we need (1, samples)
+            if wav.ndim == 2 and wav.shape[1] == self.model.audio_channels:
+                 wav = wav.T
+            elif wav.ndim == 1:
+                wav = wav.unsqueeze(0)
 
         # Convert to torch tensor if it's not already one
         if not isinstance(wav, torch.Tensor):

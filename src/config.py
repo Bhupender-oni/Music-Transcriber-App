@@ -27,4 +27,20 @@ class Settings(BaseSettings):
         env_file = ".env"
         extra = "ignore"
 
+    @property
+    def device(self) -> str:
+        try:
+            import torch
+            if torch.cuda.is_available():
+                return "cuda"
+            try:
+                import torch_directml
+                if torch_directml.is_available():
+                    return "dml"
+            except ImportError:
+                pass
+        except ImportError:
+            pass
+        return "cpu"
+
 settings = Settings()
