@@ -1,7 +1,8 @@
 # Virtual environment
 venv/
 env/
-
+venv_gpu/
+ffmpeg/
 #Python
 *.pyc
 *.pyd
@@ -17,6 +18,10 @@ separated/
 data/models/
 *.log
 .env
+*.zip
+*.exe
+*.dll
+*.lib
 
 # IDE
 .vscode/
