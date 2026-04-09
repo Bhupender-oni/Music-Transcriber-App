@@ -8,14 +8,24 @@ class Settings(BaseSettings):
     # Audio processing
     target_sample_rate: int = 22050
     hop_length: int = 512
+    max_audio_length: int = 300  # Max 5 minutes to process
     
-    # Separation settings
-    demucs_model: str = "htdemucs_ft"   # Best quality
-    use_gpu: bool = False                # Force CPU (Intel Iris)
+    # Separation settings - OPTIMIZED
+    demucs_model: str = "htdemucs_ft"
+    use_gpu: bool = False
+    demucs_enabled: bool = True  # Can disable for speed
+    
+    # ASR/Transcription - DISABLED BY DEFAULT (too slow)
+    qwen_asr_enabled: bool = False  # Disable unless needed
+    easytranscriber_enabled: bool = False
     
     # Indian music settings
-    default_tonic_freq: float = 220.0   # A3
+    default_tonic_freq: float = 220.0
     enable_shruti_detection: bool = True
+    
+    # Raga/Tala detection - core features
+    raga_detection_enabled: bool = True
+    tala_detection_enabled: bool = True
     
     # Paths
     raga_db_path: str = "./data/raga_database.json"

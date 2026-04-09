@@ -2,6 +2,7 @@ version: '3.8'
 services:
   app:
     build: .
+    container_name: music-transcriber
     ports:
       - "5000:5000"
     volumes:
@@ -10,3 +11,11 @@ services:
       - ./separated:/app/separated
     environment:
       - FLASK_ENV=production
+      - SECRET_KEY=${SECRET_KEY:-change-me-in-production}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 180s

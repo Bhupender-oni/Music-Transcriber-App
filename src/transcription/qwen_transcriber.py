@@ -17,7 +17,7 @@ class QwenMusicTranscriber:
         if QWEN_AVAILABLE:
             try:
                 self.asr = QwenASR.from_pretrained(f"Qwen/Qwen3-ASR-{model_size}",
-                                                    device=self.device, torch_dtype=torch.float32)
+                                                    device=self.device, dtype=torch.float32)
                 self.aligner = QwenForcedAligner.from_pretrained("Qwen/Qwen3-ForcedAligner-0.6B", device=self.device)
             except Exception as e:
                 print(f"Failed to load Qwen models: {e}")

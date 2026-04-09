@@ -1,8 +1,0 @@
---- Music Transcriber System Check ---
-Python Version: 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)]
-FFmpeg Status: FOUND (C:\Users\Bhupender\Documents\Music-Analyser\Music-Transcriber-App\ffmpeg\ffmpeg-master-latest-win64-gpl\bin\ffmpeg.EXE)
-ffmpeg version N-123777-g53537f6cf5-20260331 Copyright (c) 2000-2026 the FFmpeg developers
-PyTorch Version: 2.4.1+cpu
-CUDA Available: False
-DirectML Status: NOT INSTALLED
----------------------------------------
